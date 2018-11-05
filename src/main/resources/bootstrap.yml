@@ -1,0 +1,9 @@
+encrypt:
+  key: my_secret_symmetric_encryption_key
+
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
