@@ -14,5 +14,5 @@ spring:
           uri: https://github.com/marklishman/spring-cloud-config-server-ref
           searchPaths: 'src/main/resources/config'
 
-#  profiles:
-#    active: native
+  profiles:
+    active: native
