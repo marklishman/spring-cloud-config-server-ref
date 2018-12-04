@@ -2,11 +2,6 @@ server:
   port: 8888
 
 spring:
-  security:
-    user:
-      name: config
-      password: secret
-
   cloud:
     config:
       server:
@@ -14,5 +9,6 @@ spring:
           uri: https://github.com/marklishman/spring-cloud-config-server-ref
           searchPaths: 'src/main/resources/config'
 
+# Use file system rather than git
 #  profiles:
 #    active: native
