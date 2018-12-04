@@ -1,2 +1,3 @@
 app:
   config: red server config
+  secret: '{cipher}454a406cb9a0e03bd630074216a7e9f509d054f0e98e500dcfd391426839240d2fbf0b9dbe38c6c489e056706f00d860'
