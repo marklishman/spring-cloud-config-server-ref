@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8888 # default
 
 spring:
   cloud:
@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/marklishman/spring-cloud-config-server-ref
-          searchPaths: 'src/main/resources/config/*'
+          searchPaths: src/main/resources/config,src/main/resources/config/*
 
 # Use file system rather than git
 #  profiles:
