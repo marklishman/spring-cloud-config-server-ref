@@ -12,3 +12,8 @@ spring:
 # Use file system rather than git
 #  profiles:
 #    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          searchLocations: src/main/resources/config,src/main/resources/config/{application}
